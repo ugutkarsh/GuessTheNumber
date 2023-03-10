@@ -1,6 +1,5 @@
-import { useState } from 'react';
-import React from 'react';
-import { View, Text, StyleSheet, Button, TextInput, TouchableWithoutFeedback, Keyboard, Alert, Image, ScrollView, KeyboardAvoidingView } from 'react-native';
+import React, { useState } from 'react';
+import { Alert, Button, Image, Keyboard, ScrollView, StyleSheet, Text, TextInput, TouchableWithoutFeedback, View } from 'react-native';
 import Entypo from 'react-native-vector-icons/Entypo';
 //import Entypo from 'react-native-vector-icons/dist/Entypo';
 

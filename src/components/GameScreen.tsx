@@ -1,5 +1,5 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { Text, View, StyleSheet, Button, Alert, ScrollView, FlatList, Dimensions } from 'react-native';
+import React, { useEffect, useRef, useState } from 'react';
+import { Alert, Button, FlatList, StyleSheet, Text, View } from 'react-native';
 
 function generateRandomBetween({ min, max, exclude }: { min: number; max: number; exclude: any; }): any {
   min = Math.ceil(min);

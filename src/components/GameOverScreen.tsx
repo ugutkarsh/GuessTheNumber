@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, StyleSheet, Button, Image, ScrollView } from "react-native";
+import { Button, Image, ScrollView, StyleSheet, Text, View } from "react-native";
 
 const GameOverScreen = (props: any) => {
     return (

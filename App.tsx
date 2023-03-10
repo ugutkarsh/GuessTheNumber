@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { StyleSheet, SafeAreaView } from 'react-native';
+import { SafeAreaView, StyleSheet } from 'react-native';
 import GameOverScreen from './src/components/GameOverScreen';
 import GameScreen from './src/components/GameScreen';
-import StartGameScreen from './src/components/screen';
 import Header from './src/components/Header';
+import StartGameScreen from './src/components/screen';
 
 function App(): JSX.Element {
   const [userNumber, setUserNumber] = useState(null);
